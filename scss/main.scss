@@ -1,0 +1,34 @@
+@import "./assets/menu";
+@import "./assets/beticons";
+@import "./assets/bginfo";
+@import "./assets/sobre";
+@import "./assets/bgicons";
+@import "./assets/servicos";
+@import "./assets/clientes";
+@import "./assets/time";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Georgia", Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

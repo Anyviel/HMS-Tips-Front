@@ -1,0 +1,66 @@
+.clientes {
+  h1 {
+    text-align: center;
+    color: #3D9C79;
+    font-size: 3em;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .clientes-bg {
+    background: #EBEBEB;
+    padding: 60px calc((100% - 1200px) / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-prev, .btn-next {
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background: #3D9C79;
+    border-radius: 50%;
+
+    p {
+      font-size: 2em;
+      text-align: center;
+      font-weight: bold;
+      margin-top: 5px;
+      color: white;
+    }
+  }
+
+  .clientes-info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-size: 1.75em;
+      font-style: italic;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    p {
+      width: 600px;
+      text-align: center;
+      color: #191818;
+      font-size: 1.5em;
+      font-style: italic;
+    }
+  }
+
+  .clientes-profile {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+
+    img {
+      border-radius: 50%;
+    }
+  }
+}
