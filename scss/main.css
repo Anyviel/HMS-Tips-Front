@@ -35,6 +35,67 @@ header .menu-item a {
   margin: 0 10px;
 }
 
+.banner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: #3457ca;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.banner .content {
+  position: relative;
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.banner .content h2 {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+
+.banner .content p {
+  color: #1F7A16;
+  font-size: 1.5em;
+  background: #FFFF24;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
 .bet-icons {
   background: #6EB257;
 }
