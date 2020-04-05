@@ -6,6 +6,7 @@ section#servico {
   }
 
   .container {
+    padding: 0 150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -39,6 +40,7 @@ section#servico {
     a {
       color: white;
       background: #069E2D;
+      text-align: center;
       font-size: 1.25em;
       padding: 10px 40px;
       margin-bottom: 30px;

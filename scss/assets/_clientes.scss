@@ -9,7 +9,8 @@
   
   .clientes-bg {
     background: #EBEBEB;
-    padding: 60px calc((100% - 1200px) / 2);
+    padding: 60px 150px;
+    //calc((100% - 1200px) / 2);
     display: flex;
     justify-content: center;
     align-items: center;

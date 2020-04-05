@@ -3,8 +3,7 @@
 }
 
 header .menu {
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 0 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,6 +146,7 @@ header .menu-item a {
 }
 
 .infos .container {
+  padding: 0 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -187,6 +187,7 @@ header .menu-item a {
 .infos .info-text a {
   color: #000;
   background: white;
+  text-align: center;
   font-size: 1.5em;
   padding: 10px 40px;
   margin-bottom: 20px;
@@ -194,9 +195,7 @@ header .menu-item a {
 }
 
 section#sobre {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 60px 0;
+  padding: 60px 150px;
 }
 
 section#sobre .sobre-container {
@@ -233,6 +232,7 @@ section#sobre .sobre-container p {
 section#sobre .sobre-container a {
   color: white;
   background: #3D9C79;
+  text-align: center;
   font-size: 1.5em;
   padding: 10px 40px;
   margin-bottom: 20px;
@@ -251,6 +251,7 @@ section#sobre .sobre-container a {
 }
 
 .bg-icons .container {
+  padding: 0 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -279,7 +280,6 @@ section#sobre .sobre-container a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0 60px;
 }
 
 .bg-icons .icons-item img {
@@ -301,6 +301,7 @@ section#servico h1 {
 }
 
 section#servico .container {
+  padding: 0 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -351,6 +352,7 @@ section#servico .servico-item p {
 section#servico .servico-item a {
   color: white;
   background: #069E2D;
+  text-align: center;
   font-size: 1.25em;
   padding: 10px 40px;
   margin-bottom: 30px;
@@ -371,7 +373,7 @@ section#servico .servico-img {
 
 .clientes .clientes-bg {
   background: #EBEBEB;
-  padding: 60px calc((100% - 1200px) / 2);
+  padding: 60px 150px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -444,7 +446,7 @@ section#servico .servico-img {
 
 section#time {
   background: #0c1530;
-  padding: 40px;
+  padding: 0 150px;
 }
 
 section#time h1 {
@@ -519,7 +521,22 @@ img {
 }
 
 .container {
-  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  header .menu {
+    padding: 0 75px;
+  }
+  section#time {
+    padding: 0 75px;
+  }
+  section#time .container {
+    padding: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 /*# sourceMappingURL=main.css.map */

@@ -6,6 +6,7 @@
   align-items: center;
 
   .container {
+    padding: 0 150px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -18,7 +19,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 60px;
 
     img {
       height: 140px;
