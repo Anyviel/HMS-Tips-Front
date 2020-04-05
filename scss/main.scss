@@ -144,3 +144,11 @@ img {
     display: none;
   }
 }
+
+@media (max-width: 551px) {
+  header {
+    .menu {
+      padding: 10px;
+    }
+  }
+}

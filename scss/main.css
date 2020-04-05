@@ -319,7 +319,7 @@ section#servico .container {
 section#servico .servico-item {
   border: 2px solid #110707;
   margin: 40px;
-  width: 400px;
+  max-width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -776,6 +776,12 @@ img {
 @media (max-width: 699px) {
   .bet-icons {
     display: none;
+  }
+}
+
+@media (max-width: 551px) {
+  header .menu {
+    padding: 10px;
   }
 }
 /*# sourceMappingURL=main.css.map */
