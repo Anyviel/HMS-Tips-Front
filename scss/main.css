@@ -127,7 +127,7 @@ header .menu-item a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 30px 60px;
+  padding: 30px 80px;
 }
 
 .bet-icons .bet-item p {
@@ -363,17 +363,20 @@ section#servico .servico-img {
   border-bottom: 3px solid rgba(0, 0, 0, 0.466);
 }
 
+.clientes {
+  background: #EBEBEB;
+  padding: 60px 150px;
+}
+
 .clientes h1 {
   text-align: center;
   color: #3D9C79;
   font-size: 3em;
-  padding-top: 40px;
   padding-bottom: 40px;
 }
 
 .clientes .clientes-bg {
-  background: #EBEBEB;
-  padding: 60px 150px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -394,6 +397,7 @@ section#servico .servico-img {
 }
 
 .clientes .btn-prev p, .clientes .btn-next p {
+  margin: 10px;
   font-size: 2em;
   text-align: center;
   font-weight: bold;
@@ -427,7 +431,7 @@ section#servico .servico-img {
 }
 
 .clientes .clientes-info p {
-  width: 600px;
+  max-width: 650px;
   text-align: center;
   color: #191818;
   font-size: 1.5em;
@@ -442,6 +446,100 @@ section#servico .servico-img {
 
 .clientes .clientes-profile img {
   border-radius: 50%;
+}
+
+section#contato {
+  padding: 10px 50px;
+  background: #6EB257;
+  text-align: center;
+}
+
+section#contato .heading {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+section#contato .text {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: 1;
+}
+
+section#formContato {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#formContato .contentBx {
+  background: #162c3b;
+  padding: 150px;
+  width: 100%;
+}
+
+section#formContato .redbg {
+  background: url(/img/red.jpg) !important;
+  background-size: cover;
+  background-position: center;
+}
+
+section#formContato .form .inputBx {
+  margin-bottom: 40px;
+}
+
+section#formContato .form .inputBx input, section#formContato .form .inputBx textarea {
+  width: 100%;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  font-size: 1em;
+  font-weight: 300;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+section#formContato .form .inputBx textarea {
+  min-height: 150px;
+  max-height: 300px;
+}
+
+section#formContato .form .inputBx input::-webkit-input-placeholder, section#formContato .form .inputBx textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+section#formContato .form .inputBx input:-ms-input-placeholder, section#formContato .form .inputBx textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+section#formContato .form .inputBx input::-ms-input-placeholder, section#formContato .form .inputBx textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+section#formContato .form .inputBx input::placeholder, section#formContato .form .inputBx textarea::placeholder {
+  color: #fff;
+}
+
+section#formContato .form .inputBx input[type="submit"] {
+  width: 150px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+  font-weight: 400;
 }
 
 section#time {
@@ -500,6 +598,62 @@ section#time .time-img img {
   border-radius: 50%;
 }
 
+section#footer {
+  background: #4AAD52;
+  padding: 20px 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#footer .mob {
+  display: none;
+}
+
+section#footer p {
+  color: #fff;
+}
+
+section#footer a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 400;
+}
+
+section#footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section#footer ul li {
+  list-style: none;
+}
+
+section#footer ul li a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+section#footer ul li a img {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+  max-width: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -529,6 +683,43 @@ img {
   header .menu {
     padding: 0 75px;
   }
+  .banner {
+    padding: 75px;
+  }
+  .banner header {
+    padding: 20px 50px;
+  }
+  .banner .content h2 {
+    font-size: 3em;
+  }
+  .banner .content p {
+    font-size: 1.25em;
+  }
+  .bet-icons .container {
+    padding: 30px 60px;
+  }
+  .infos .container {
+    padding: 0 75px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .infos .info-text {
+    padding-top: 30px;
+  }
+  .infos .info-text h2 {
+    margin-bottom: 30px;
+  }
+  .infos .info-text a {
+    padding: 10px 30px;
+  }
+  section#sobre {
+    padding: 30px 75px;
+  }
+  .clientes {
+    padding: 30px 75px;
+  }
   section#time {
     padding: 0 75px;
   }
@@ -537,6 +728,32 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  section#footer {
+    padding: 20px 50px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    text-align: center;
+  }
+  section#footer .mob {
+    display: block;
+    width: 245px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 889px) {
+  .bg-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 699px) {
+  .bet-icons {
+    display: none;
   }
 }
 /*# sourceMappingURL=main.css.map */

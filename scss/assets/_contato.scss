@@ -1,0 +1,76 @@
+section#contato {
+  padding: 10px 50px;
+  background: #6EB257;
+  text-align: center;
+
+  .heading {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+  }
+
+  .text {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 300;
+    letter-spacing: 1;
+  }
+}
+
+section#formContato {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;;
+
+  .contentBx {
+    background: #162c3b;
+    padding: 150px;
+    width: 100%;    
+  }
+
+  .redbg {
+    background: url(/img/red.jpg) !important;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .form {
+    .inputBx {
+      margin-bottom: 40px;
+
+      input, textarea {
+        width: 100%;
+        background: transparent;
+        box-shadow: none;
+        border: none;
+        outline: none;
+        padding: 10px 0;
+        font-size: 1em;
+        font-weight: 300;
+        color: #fff;
+        border-bottom: 2px solid #fff;
+      }
+
+      textarea {
+        min-height: 150px;
+        max-height: 300px;
+      }
+
+      input::placeholder, textarea::placeholder {
+        color: #fff;
+      }
+
+      input[type="submit"] {
+        width: 150px;
+        background: #fff;
+        color: #111;
+        cursor: pointer;
+        font-weight: 400;
+      }
+    }
+  }
+}

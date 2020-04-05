@@ -6,7 +6,9 @@
 @import "./assets/bgicons";
 @import "./assets/servicos";
 @import "./assets/clientes";
+@import "./assets/contato";
 @import "./assets/time";
+@import "./assets/footer";
 
 *{
   margin: 0;
@@ -39,11 +41,88 @@ img {
     }
   }
 
+  .banner {
+    padding: 75px;
+
+    header {
+      padding: 20px 50px;
+    }
+
+    .content {
+      h2 {
+        font-size: 3em;
+      }
+  
+      p {
+        font-size: 1.25em;
+      }
+    }
+  }
+
+  .bet-icons {
+    .container {
+      padding: 30px 60px;
+    }
+  }
+
+  .infos {
+    .container {
+      padding: 0 75px;
+      flex-direction: column;
+    }
+
+    .info-text {
+      padding-top: 30px;
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      a {
+        padding: 10px 30px;
+      }
+    }
+    
+  }
+
+  section#sobre {
+    padding: 30px 75px;
+  }
+
+  .clientes {
+    padding: 30px 75px;
+  }
+
   section#time {
     padding: 0 75px;
     .container {
       padding: 25px;
       justify-content: center;
     }
+  }
+
+  section#footer {
+    padding: 20px 50px;
+    flex-direction: column-reverse;
+    text-align: center;
+    
+    .mob {
+      display: block;
+      width: 245px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media (max-width: 889px) {
+  .bg-icons {
+    display: none;
+  }
+}
+
+@media (max-width: 699px) {
+  .bet-icons {
+    display: none;
   }
 }

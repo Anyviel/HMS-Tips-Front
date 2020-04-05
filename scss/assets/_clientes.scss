@@ -1,16 +1,16 @@
 .clientes {
+  background: #EBEBEB;
+  padding: 60px 150px;
+
   h1 {
     text-align: center;
     color: #3D9C79;
     font-size: 3em;
-    padding-top: 40px;
     padding-bottom: 40px;
   }
   
   .clientes-bg {
-    background: #EBEBEB;
-    padding: 60px 150px;
-    //calc((100% - 1200px) / 2);
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,7 @@
     border-radius: 50%;
 
     p {
+      margin: 10px;
       font-size: 2em;
       text-align: center;
       font-weight: bold;
@@ -47,7 +48,7 @@
     }
 
     p {
-      width: 600px;
+      max-width: 650px;
       text-align: center;
       color: #191818;
       font-size: 1.5em;
