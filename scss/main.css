@@ -1,5 +1,5 @@
 .menu-bg {
-  background: #040000;
+  background: #1a1a1a;
 }
 
 header .menu {
@@ -159,7 +159,7 @@ header .menu-item a {
 }
 
 .infos .info-text {
-  width: 470px;
+  max-width: 470px;
   margin: 0 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,6 +217,7 @@ section#sobre .sobre-container {
 }
 
 section#sobre .sobre-container h1 {
+  text-align: center;
   font-size: 3em;
   color: #3D9C79;
   margin-bottom: 20px;
@@ -485,12 +486,12 @@ section#formContato {
 
 section#formContato .contentBx {
   background: #162c3b;
-  padding: 150px;
+  padding: 40px 150px;
   width: 100%;
 }
 
-section#formContato .redbg {
-  background: url(/img/red.jpg) !important;
+section#formContato .greenbg {
+  background: url(/img/green.jpg) !important;
   background-size: cover;
   background-position: center;
 }
@@ -513,6 +514,11 @@ section#formContato .form .inputBx input, section#formContato .form .inputBx tex
   border-bottom: 2px solid #fff;
 }
 
+section#formContato .form .inputBx .inputBx:last-child {
+  margin-bottom: 0;
+  padding: 0;
+}
+
 section#formContato .form .inputBx textarea {
   min-height: 150px;
   max-height: 300px;
@@ -520,18 +526,22 @@ section#formContato .form .inputBx textarea {
 
 section#formContato .form .inputBx input::-webkit-input-placeholder, section#formContato .form .inputBx textarea::-webkit-input-placeholder {
   color: #fff;
+  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input:-ms-input-placeholder, section#formContato .form .inputBx textarea:-ms-input-placeholder {
   color: #fff;
+  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input::-ms-input-placeholder, section#formContato .form .inputBx textarea::-ms-input-placeholder {
   color: #fff;
+  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input::placeholder, section#formContato .form .inputBx textarea::placeholder {
   color: #fff;
+  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input[type="submit"] {
@@ -543,8 +553,8 @@ section#formContato .form .inputBx input[type="submit"] {
 }
 
 section#time {
-  background: #0c1530;
-  padding: 0 150px;
+  background: #0c2530;
+  padding: 10px 150px;
 }
 
 section#time h1 {
@@ -728,6 +738,18 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  section#contato {
+    padding: 15px 75px;
+  }
+  section#formContato .contentBx {
+    width: 100%;
+    padding: 50px;
+    min-height: 400px;
+    text-align: center;
+  }
+  section#formContato .imgbx {
+    display: none;
   }
   section#footer {
     padding: 20px 50px;

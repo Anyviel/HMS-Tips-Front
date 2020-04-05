@@ -39,7 +39,7 @@ img {
     .menu {
       padding: 0 75px;
     }
-  }
+  } // Header
 
   .banner {
     padding: 75px;
@@ -57,13 +57,13 @@ img {
         font-size: 1.25em;
       }
     }
-  }
+  } //Banner
 
   .bet-icons {
     .container {
       padding: 30px 60px;
     }
-  }
+  } // Bet-Icons
 
   .infos {
     .container {
@@ -83,7 +83,7 @@ img {
       }
     }
     
-  }
+  } // Infos
 
   section#sobre {
     padding: 30px 75px;
@@ -91,7 +91,7 @@ img {
 
   .clientes {
     padding: 30px 75px;
-  }
+  } // Sobre
 
   section#time {
     padding: 0 75px;
@@ -99,7 +99,25 @@ img {
       padding: 25px;
       justify-content: center;
     }
-  }
+  } // Sobre
+
+  section#contato {
+    padding: 15px 75px;
+  } // Contato
+
+  section#formContato {
+
+    .contentBx {
+      width: 100%;
+      padding: 50px;
+      min-height: 400px;
+      text-align: center;
+    }
+
+    .imgbx {
+      display: none;
+    }
+  } //Contato
 
   section#footer {
     padding: 20px 50px;
@@ -112,7 +130,7 @@ img {
       margin-top: 10px;
       margin-bottom: 10px;
     }
-  }
+  } //Footer
 }
 
 @media (max-width: 889px) {

@@ -28,12 +28,12 @@ section#formContato {
 
   .contentBx {
     background: #162c3b;
-    padding: 150px;
+    padding: 40px 150px;
     width: 100%;    
   }
 
-  .redbg {
-    background: url(/img/red.jpg) !important;
+  .greenbg {
+    background: url(/img/green.jpg) !important;
     background-size: cover;
     background-position: center;
   }
@@ -55,6 +55,11 @@ section#formContato {
         border-bottom: 2px solid #fff;
       }
 
+      .inputBx:last-child {
+        margin-bottom: 0;
+        padding: 0;
+      }
+
       textarea {
         min-height: 150px;
         max-height: 300px;
@@ -62,6 +67,7 @@ section#formContato {
 
       input::placeholder, textarea::placeholder {
         color: #fff;
+        font-family: "Georgia", Arial, Helvetica, sans-serif;
       }
 
       input[type="submit"] {
