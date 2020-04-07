@@ -63,11 +63,11 @@ section#formContato {
       textarea {
         min-height: 150px;
         max-height: 300px;
+        font-family: "Georgia", Arial, Helvetica, sans-serif;
       }
 
       input::placeholder, textarea::placeholder {
         color: #fff;
-        font-family: "Georgia", Arial, Helvetica, sans-serif;
       }
 
       input[type="submit"] {

@@ -525,26 +525,23 @@ section#formContato .form .inputBx .inputBx:last-child {
 section#formContato .form .inputBx textarea {
   min-height: 150px;
   max-height: 300px;
+  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input::-webkit-input-placeholder, section#formContato .form .inputBx textarea::-webkit-input-placeholder {
   color: #fff;
-  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input:-ms-input-placeholder, section#formContato .form .inputBx textarea:-ms-input-placeholder {
   color: #fff;
-  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input::-ms-input-placeholder, section#formContato .form .inputBx textarea::-ms-input-placeholder {
   color: #fff;
-  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input::placeholder, section#formContato .form .inputBx textarea::placeholder {
   color: #fff;
-  font-family: "Georgia", Arial, Helvetica, sans-serif;
 }
 
 section#formContato .form .inputBx input[type="submit"] {
@@ -747,7 +744,7 @@ img {
   }
   section#formContato .contentBx {
     width: 100%;
-    padding: 50px;
+    padding: 150px;
     min-height: 400px;
     text-align: center;
   }
