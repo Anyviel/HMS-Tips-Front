@@ -133,7 +133,37 @@ img {
   } //Footer
 }
 
-@media (max-width: 889px) {
+@media (max-width: 893px) {
+  .menu {
+    .menu-item {
+      width: 100%;
+      top: 0;
+      display: none;
+
+      a {
+        margin: 0;
+        display: block;
+        text-align: center;
+        padding: 15px 0;
+      }
+      a:hover {
+        background: #1f1f1f;
+      }
+    }
+
+    .menu-item.active {
+      display: block;
+      transform: 1s linear;
+    }
+
+    .menu-toggle {
+      .toggle {
+        top: 24px;
+        display: block;
+      }
+    }
+  }
+  
   .bg-icons {
     display: none;
   }
@@ -148,7 +178,14 @@ img {
 @media (max-width: 551px) {
   header {
     .menu {
-      padding: 10px;
+      padding: 0 10px;
+    }
+
+    .menu-toggle {
+      .toggle {
+        right: 10px;
+        top: 20px;
+      }
     }
   }
 }

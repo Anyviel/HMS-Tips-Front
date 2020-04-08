@@ -12,7 +12,10 @@
       <div class="menu-logo">
         <img src="img/logo.jpg" alt="HMSTips-Logo">
       </div>
-      <nav class="menu-item">
+      <div class="menu-toggle" onclick="menuToggle()">
+        <a class="toggle"></a>
+      </div>
+      <nav class="menu-item" id="navbar">
         <ul>
           <a href="#sobre">Sobre</a>
           <a href="#servico">Serviços</a>
@@ -212,4 +215,11 @@
     </ul>
   </section>
 </body>
+<script type="text/javascript">
+  function menuToggle() {
+    const nav = document.getElementById('navbar')
+    nav.classList.toggle('active')
+    // console.log('Fui clicado', nav.classList)
+  }
+</script>
 </html>

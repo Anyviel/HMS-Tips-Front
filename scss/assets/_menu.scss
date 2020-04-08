@@ -18,6 +18,21 @@ header {
     height: 70px;
   }
 
+  .menu-toggle {
+    .toggle {
+      background: url(/img/toggle.png);
+      background-size: cover;
+      display: none;
+      color: white;
+      width: 29px;
+      height: 25px;
+      position: absolute;
+      right: 80px;
+      top: 26px;
+      cursor: pointer;
+    }
+  }
+
   .menu-item {
     display: flex;
 
