@@ -368,7 +368,7 @@ section#servico .servico-img {
 
 .clientes {
   background: #EBEBEB;
-  padding: 60px 150px;
+  padding: 60px 0px;
 }
 
 .clientes h1 {
@@ -785,3 +785,25 @@ img {
   }
 }
 /*# sourceMappingURL=main.css.map */
+
+html {
+  overflow-x: hidden;
+}
+
+.container-carousel {
+  width: 100vw;
+}
+
+.carousel-content {
+  
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden;
+
+}
+.carousel-content > .container,
+.carousel-content > .container > div {
+  width: 100vw;
+  transition: ease-in-out;
+}
