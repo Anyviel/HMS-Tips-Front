@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/img/bgHms.jpg);
+  background-image: url(../img/bgHms.jpg);
   background-size: cover;
   background-position: center;
   transition: all .1s ease-in-out;
@@ -10,22 +10,22 @@
 
   @keyframes banner {
     0% {
-      background-image: url(/img/bgHms.jpg);
+      background-image: url(../img/bgHms.jpg);
     }
     33% {
-      background-image: url(/img/bgHms.jpg);
+      background-image: url(../img/bgHms.jpg);
     }
     34% {
-      background-image: url(/img/assesoria.jpg);
+      background-image: url(../img/assesoria.jpg);
     }
     66% {
-      background-image: url(/img/assesoria.jpg);
+      background-image: url(../img/assesoria.jpg);
     }
     67% {
-      background-image: url(/img/prefixado.jpg);
+      background-image: url(../img/prefixado.jpg);
     }
     100% {
-      background-image: url(/img/prefixado.jpg);
+      background-image: url(../img/prefixado.jpg);
     }
   }
 
