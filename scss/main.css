@@ -51,7 +51,60 @@ header .menu-item a {
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #3457ca;
+  background-image: url(/img/bgHms.jpg);
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all .1s ease-in-out;
+  transition: all .1s ease-in-out;
+  -webkit-animation: banner 24s infinite linear;
+          animation: banner 24s infinite linear;
+}
+
+@-webkit-keyframes banner {
+  0% {
+    background-image: url(/img/bgHms.jpg);
+  }
+  33% {
+    background-image: url(/img/bgHms.jpg);
+  }
+  34% {
+    background-image: url(/img/assesoria.jpg);
+  }
+  66% {
+    background-image: url(/img/assesoria.jpg);
+  }
+  67% {
+    background-image: url(/img/prefixado.jpg);
+  }
+  100% {
+    background-image: url(/img/prefixado.jpg);
+  }
+}
+
+@keyframes banner {
+  0% {
+    background-image: url(/img/bgHms.jpg);
+  }
+  33% {
+    background-image: url(/img/bgHms.jpg);
+  }
+  34% {
+    background-image: url(/img/assesoria.jpg);
+  }
+  66% {
+    background-image: url(/img/assesoria.jpg);
+  }
+  67% {
+    background-image: url(/img/prefixado.jpg);
+  }
+  100% {
+    background-image: url(/img/prefixado.jpg);
+  }
+}
+
+.banner .banner-container {
+  width: 100%;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -61,22 +114,13 @@ header .menu-item a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  overflow: hidden;
+  background-color: rgba(1, 1, 1, 0.2);
 }
 
-.banner img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.banner .content {
-  position: relative;
+.banner .banner-container .content {
+  position: relative !important;
   max-width: 750px;
+  text-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,17 +134,16 @@ header .menu-item a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  text-align: center;
 }
 
-.banner .content h2 {
+.banner .banner-container .content h2 {
   color: #fff;
   font-size: 3em;
   font-weight: 100;
   margin-bottom: 30px;
 }
 
-.banner .content p {
+.banner .banner-container .content p {
   color: #1F7A16;
   font-size: 1.5em;
   background: #FFFF24;
@@ -706,17 +749,17 @@ img {
   header .menu {
     padding: 0 75px;
   }
-  .banner {
-    padding: 75px;
-  }
   .banner header {
     padding: 20px 50px;
   }
+  .banner .content {
+    padding: 75px;
+  }
   .banner .content h2 {
-    font-size: 3em;
+    font-size: 2.75em;
   }
   .banner .content p {
-    font-size: 1.25em;
+    font-size: 1em;
   }
   .bet-icons .container {
     padding: 30px 60px;
