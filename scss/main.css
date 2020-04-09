@@ -51,7 +51,11 @@ header .menu-item a {
   position: relative;
   width: 100%;
   height: 100vh;
+<<<<<<< HEAD
   background-image: url(../img/bgHms.jpg);
+=======
+  background-image: url(../img/bgHms.png);
+>>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
   background-size: cover;
   background-position: center;
   -webkit-transition: all .1s ease-in-out;
@@ -62,6 +66,7 @@ header .menu-item a {
 
 @-webkit-keyframes banner {
   0% {
+<<<<<<< HEAD
 <<<<<<< HEAD
     background-image: url(../img/bgHms.jpg);
   }
@@ -85,6 +90,18 @@ header .menu-item a {
   66% {
     background-image: url(../img/bgHms2.jpg);
 >>>>>>> fb5bbe8064691d90eea95fe79bae9fc19f90b377
+=======
+    background-image: url(../img/bgHms.png);
+  }
+  33% {
+    background-image: url(../img/bgHms.png);
+  }
+  34% {
+    background-image: url(../img/bgHms2.jpg);
+  }
+  66% {
+    background-image: url(../img/bgHms2.jpg);
+>>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
   }
   67% {
     background-image: url(../img/prefixado.jpg);
@@ -97,6 +114,7 @@ header .menu-item a {
 @keyframes banner {
   0% {
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-image: url(../img/bgHms.jpg);
   }
   33% {
@@ -108,6 +126,8 @@ header .menu-item a {
   66% {
     background-image: url(../img/assesoria.jpg);
 =======
+=======
+>>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
     background-image: url(../img/bgHms.png);
   }
   33% {
@@ -118,7 +138,10 @@ header .menu-item a {
   }
   66% {
     background-image: url(../img/bgHms2.jpg);
+<<<<<<< HEAD
 >>>>>>> fb5bbe8064691d90eea95fe79bae9fc19f90b377
+=======
+>>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
   }
   67% {
     background-image: url(../img/prefixado.jpg);
@@ -144,7 +167,7 @@ header .menu-item a {
 }
 
 .banner .banner-container .content {
-  position: relative !important;
+  position: relative;
   max-width: 750px;
   text-align: center;
   display: -webkit-box;
@@ -662,10 +685,14 @@ section#time .container {
 
 section#time .container .time-item {
 <<<<<<< HEAD
+<<<<<<< HEAD
   max-width: 260px;
 =======
   max-width: 240px;
 >>>>>>> fb5bbe8064691d90eea95fe79bae9fc19f90b377
+=======
+  max-width: 240px;
+>>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
   border: 1px solid white;
   background: white;
   border-radius: 24px;
@@ -805,9 +832,6 @@ img {
   header .menu {
     padding: 0 75px;
   }
-  .banner header {
-    padding: 20px 50px;
-  }
   .banner .content {
     padding: 75px;
   }
@@ -929,6 +953,34 @@ img {
     right: 10px;
     top: 20px;
   }
+<<<<<<< HEAD
+=======
+  .banner .banner-container .content {
+    padding: 20px;
+  }
+  .banner .banner-container .content h2 {
+    font-size: 2em;
+  }
+  .banner .banner-container .content p {
+    font-size: 1em;
+    padding: 10px 15px;
+  }
+  .infos .container {
+    padding: 20px;
+  }
+  .infos .container .info-text h2 {
+    font-size: 1.5em;
+  }
+  .infos .container .info-text a {
+    font-size: 1em;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  section#sobre {
+    padding: 15px;
+    margin-bottom: 40px;
+  }
+>>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
   section#servico .container {
     padding: 30px;
     display: -webkit-box;
@@ -943,6 +995,25 @@ img {
         -ms-flex-align: center;
             align-items: center;
   }
+<<<<<<< HEAD
+=======
+  section#time {
+    padding: 0 25px;
+  }
+  section#time .container {
+    padding-bottom: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  section#time .container .time-item {
+    max-width: 160px;
+  }
+  section#time .container .time-img {
+    height: 160px;
+    width: 160px;
+  }
+>>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
   section#formContato .contentBx {
     width: 100%;
     padding: 30px;
