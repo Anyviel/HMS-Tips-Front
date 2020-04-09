@@ -2,68 +2,72 @@
   background: #EBEBEB;
   padding: 60px 150px;
 
+    .slick-prev:before,
+    .slick-next:before {
+    font-family: "slick";
+    font-size: 40px;
+    line-height: 1;
+    color: #3D9C79;
+    opacity: 0.75;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
   h1 {
     text-align: center;
     color: #3D9C79;
     font-size: 3em;
     padding-bottom: 40px;
   }
-  
-  .clientes-bg {
+
+  .slider {
+    max-width: 800px;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    margin: 0 auto;
 
-  .btn-prev, .btn-next {
-    cursor: pointer;
-    height: 50px;
-    width: 50px;
-    background: #3D9C79;
-    border-radius: 50%;
-
-    p {
-      margin: 10px;
-      font-size: 2em;
-      text-align: center;
-      font-weight: bold;
-      margin-top: 5px;
-      color: white;
+    .clientes-bg {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-  }
-
-  .clientes-info {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    h2 {
-      text-align: center;
-      font-size: 1.75em;
-      font-style: italic;
-      font-weight: bold;
-      margin-bottom: 15px;
+  
+    .slick-initialized .slick-slide {
+      // display: block;
     }
-
-    p {
-      max-width: 650px;
-      text-align: center;
-      color: #191818;
-      font-size: 1.5em;
-      font-style: italic;
+  
+    .clientes-info {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      h2 {
+        text-align: center;
+        font-size: 1.75em;
+        font-style: italic;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+  
+      p {
+        max-width: 650px;
+        text-align: center;
+        color: #191818;
+        font-size: 1.5em;
+        font-style: italic;
+      }
     }
-  }
-
-  .clientes-profile {
-    height: 200px;
-    width: 200px;
-    margin-bottom: 20px;
-
-    img {
-      border-radius: 50%;
+  
+    .clientes-profile {
+      height: 200px;
+      width: 200px;
+      margin-bottom: 20px;
+  
+      img {
+        border-radius: 50%;
+      }
     }
   }
 }
