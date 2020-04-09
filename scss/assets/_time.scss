@@ -12,11 +12,12 @@ section#time {
 
   .container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
     align-items: center;
 
     .time-item {
+      max-width: 260px;
       border: 1px solid white;
       background: white;
       border-radius: 24px;

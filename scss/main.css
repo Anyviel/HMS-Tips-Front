@@ -23,7 +23,7 @@ header .menu-logo {
 }
 
 header .menu-toggle .toggle {
-  background: url(/img/toggle.png);
+  background: url(../img/toggle.png);
   background-size: cover;
   display: none;
   color: white;
@@ -51,7 +51,7 @@ header .menu-item a {
   position: relative;
   width: 100%;
   height: 100vh;
-  background-image: url(/img/bgHms.jpg);
+  background-image: url(../img/bgHms.jpg);
   background-size: cover;
   background-position: center;
   -webkit-transition: all .1s ease-in-out;
@@ -62,43 +62,43 @@ header .menu-item a {
 
 @-webkit-keyframes banner {
   0% {
-    background-image: url(/img/bgHms.jpg);
+    background-image: url(../img/bgHms.jpg);
   }
   33% {
-    background-image: url(/img/bgHms.jpg);
+    background-image: url(../img/bgHms.jpg);
   }
   34% {
-    background-image: url(/img/assesoria.jpg);
+    background-image: url(../img/assesoria.jpg);
   }
   66% {
-    background-image: url(/img/assesoria.jpg);
+    background-image: url(../img/assesoria.jpg);
   }
   67% {
-    background-image: url(/img/prefixado.jpg);
+    background-image: url(../img/prefixado.jpg);
   }
   100% {
-    background-image: url(/img/prefixado.jpg);
+    background-image: url(../img/prefixado.jpg);
   }
 }
 
 @keyframes banner {
   0% {
-    background-image: url(/img/bgHms.jpg);
+    background-image: url(../img/bgHms.jpg);
   }
   33% {
-    background-image: url(/img/bgHms.jpg);
+    background-image: url(../img/bgHms.jpg);
   }
   34% {
-    background-image: url(/img/assesoria.jpg);
+    background-image: url(../img/assesoria.jpg);
   }
   66% {
-    background-image: url(/img/assesoria.jpg);
+    background-image: url(../img/assesoria.jpg);
   }
   67% {
-    background-image: url(/img/prefixado.jpg);
+    background-image: url(../img/prefixado.jpg);
   }
   100% {
-    background-image: url(/img/prefixado.jpg);
+    background-image: url(../img/prefixado.jpg);
   }
 }
 
@@ -298,7 +298,7 @@ section#sobre .sobre-container a {
 }
 
 .bg-icons {
-  background: url(/img/bggreen.png) no-repeat center center;
+  background: url(../img/bggreen.png) no-repeat center center;
   background-size: cover;
   height: 700px;
   display: -webkit-box;
@@ -427,6 +427,17 @@ section#servico .servico-img {
   padding: 60px 150px;
 }
 
+.clientes .slick-prev:before,
+.clientes .slick-next:before {
+  font-family: "slick";
+  font-size: 40px;
+  line-height: 1;
+  color: #3D9C79;
+  opacity: 0.75;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .clientes h1 {
   text-align: center;
   color: #3D9C79;
@@ -434,7 +445,13 @@ section#servico .servico-img {
   padding-bottom: 40px;
 }
 
-.clientes .clientes-bg {
+.clientes .slider {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.clientes .slider .clientes-bg {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -447,24 +464,7 @@ section#servico .servico-img {
           align-items: center;
 }
 
-.clientes .btn-prev, .clientes .btn-next {
-  cursor: pointer;
-  height: 50px;
-  width: 50px;
-  background: #3D9C79;
-  border-radius: 50%;
-}
-
-.clientes .btn-prev p, .clientes .btn-next p {
-  margin: 10px;
-  font-size: 2em;
-  text-align: center;
-  font-weight: bold;
-  margin-top: 5px;
-  color: white;
-}
-
-.clientes .clientes-info {
+.clientes .slider .clientes-info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -482,7 +482,7 @@ section#servico .servico-img {
           align-items: center;
 }
 
-.clientes .clientes-info h2 {
+.clientes .slider .clientes-info h2 {
   text-align: center;
   font-size: 1.75em;
   font-style: italic;
@@ -490,7 +490,7 @@ section#servico .servico-img {
   margin-bottom: 15px;
 }
 
-.clientes .clientes-info p {
+.clientes .slider .clientes-info p {
   max-width: 650px;
   text-align: center;
   color: #191818;
@@ -498,13 +498,13 @@ section#servico .servico-img {
   font-style: italic;
 }
 
-.clientes .clientes-profile {
+.clientes .slider .clientes-profile {
   height: 200px;
   width: 200px;
   margin-bottom: 20px;
 }
 
-.clientes .clientes-profile img {
+.clientes .slider .clientes-profile img {
   border-radius: 50%;
 }
 
@@ -550,7 +550,7 @@ section#formContato .contentBx {
 }
 
 section#formContato .greenbg {
-  background: url(/img/green.jpg) !important;
+  background: url(../img/green.jpg) !important;
   background-size: cover;
   background-position: center;
 }
@@ -625,17 +625,17 @@ section#time .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 section#time .container .time-item {
+  max-width: 260px;
   border: 1px solid white;
   background: white;
   border-radius: 24px;

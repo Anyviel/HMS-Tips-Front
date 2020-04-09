@@ -55,9 +55,9 @@
 .slick-prev:before,
 .slick-next:before {
   font-family: "slick";
-  font-size: 40px;
+  font-size: 20px;
   line-height: 1;
-  color: #40c52b;
+  color: white;
   opacity: 0.75;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

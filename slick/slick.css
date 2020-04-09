@@ -83,7 +83,7 @@
 }
 
 .slick-initialized .slick-slide {
-  /* display: block; */
+  display: block;
 }
 
 .slick-loading .slick-slide {
