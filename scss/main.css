@@ -62,16 +62,16 @@ header .menu-item a {
 
 @-webkit-keyframes banner {
   0% {
-    background-image: url(../img/bgHms.jpg);
+    background-image: url(../img/bgHms.png);
   }
   33% {
-    background-image: url(../img/bgHms.jpg);
+    background-image: url(../img/bgHms.png);
   }
   34% {
-    background-image: url(../img/assesoria.jpg);
+    background-image: url(../img/bgHms2.jpg);
   }
   66% {
-    background-image: url(../img/assesoria.jpg);
+    background-image: url(../img/bgHms2.jpg);
   }
   67% {
     background-image: url(../img/prefixado.jpg);
@@ -83,16 +83,16 @@ header .menu-item a {
 
 @keyframes banner {
   0% {
-    background-image: url(../img/bgHms.jpg);
+    background-image: url(../img/bgHms.png);
   }
   33% {
-    background-image: url(../img/bgHms.jpg);
+    background-image: url(../img/bgHms.png);
   }
   34% {
-    background-image: url(../img/assesoria.jpg);
+    background-image: url(../img/bgHms2.jpg);
   }
   66% {
-    background-image: url(../img/assesoria.jpg);
+    background-image: url(../img/bgHms2.jpg);
   }
   67% {
     background-image: url(../img/prefixado.jpg);
@@ -635,11 +635,11 @@ section#time .container {
 }
 
 section#time .container .time-item {
-  max-width: 260px;
+  max-width: 240px;
   border: 1px solid white;
   background: white;
   border-radius: 24px;
-  margin: 10px;
+  margin: 5px 10px;
 }
 
 section#time .container .time-item h2 {
@@ -655,8 +655,8 @@ section#time .container .time-item p {
 }
 
 section#time .container .time-img {
-  width: 260px;
-  height: 260px;
+  width: 240px;
+  height: 240px;
   padding: 20px;
 }
 
@@ -745,6 +745,32 @@ img {
   margin: 0 auto;
 }
 
+@media (max-width: 1368px) {
+  section#time .container .time-item {
+    max-width: 200px;
+  }
+  section#time .container .time-img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 1194px) {
+  section#formContato .contentBx {
+    padding: 50px 200px;
+  }
+  section#time {
+    padding: 10px 120px;
+  }
+  section#time .container .time-item {
+    max-width: 170px;
+  }
+  section#time .container .time-img {
+    height: 170px;
+    width: 170px;
+  }
+}
+
 @media (max-width: 1024px) {
   header .menu {
     padding: 0 75px;
@@ -790,17 +816,24 @@ img {
     padding: 0 75px;
   }
   section#time .container {
-    padding: 25px;
+    padding-bottom: 30px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  section#time .container .time-item {
+    max-width: 280px;
+  }
+  section#time .container .time-img {
+    height: 280px;
+    width: 280px;
   }
   section#contato {
     padding: 15px 75px;
   }
   section#formContato .contentBx {
     width: 100%;
-    padding: 150px;
+    padding: 100px;
     min-height: 400px;
     text-align: center;
   }
@@ -865,6 +898,24 @@ img {
   header .menu-toggle .toggle {
     right: 10px;
     top: 20px;
+  }
+  section#servico .container {
+    padding: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section#formContato .contentBx {
+    width: 100%;
+    padding: 30px;
   }
 }
 /*# sourceMappingURL=main.css.map */
