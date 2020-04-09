@@ -34,6 +34,41 @@ img {
   margin: 0 auto;
 }
 
+@media (max-width: 1368px) {
+  section#time {
+    .container {
+      .time-item {
+        max-width: 200px;
+      }
+      .time-img {
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1194px) {
+  section#formContato {
+    .contentBx {
+      padding: 50px 200px;
+    }
+  }
+
+  section#time {
+    padding: 10px 120px;
+    .container {
+      .time-item {
+        max-width: 170px;
+      }
+      .time-img {
+        height: 170px;
+        width: 170px;
+      }
+    }
+  }
+}
+
 @media (max-width: 1024px) {
   header {
     .menu {
@@ -96,8 +131,16 @@ img {
   section#time {
     padding: 0 75px;
     .container {
-      padding: 25px;
+      padding-bottom: 30px;
       justify-content: center;
+
+      .time-item {
+        max-width: 280px;
+      }
+      .time-img {
+        height: 280px;
+        width: 280px;
+      }
     }
   } // Sobre
 
@@ -109,7 +152,7 @@ img {
 
     .contentBx {
       width: 100%;
-      padding: 150px;
+      padding: 100px;
       min-height: 400px;
       text-align: center;
     }
@@ -188,4 +231,23 @@ img {
       }
     }
   }
+
+  section#servico {
+    .container {
+      padding: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  section#formContato {
+
+    .contentBx {
+      width: 100%;
+      padding: 30px;
+      
+    }
+  } //Contato
 }
