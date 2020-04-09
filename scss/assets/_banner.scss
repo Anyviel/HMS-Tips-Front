@@ -2,11 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-<<<<<<< HEAD
-  background-image: url(../img/bgHms.jpg);
-=======
   background-image: url(../img/bgHms.png);
->>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
   background-size: cover;
   background-position: center;
   transition: all .1s ease-in-out;
@@ -14,19 +10,6 @@
 
   @keyframes banner {
     0% {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      background-image: url(../img/bgHms.jpg);
-    }
-    33% {
-      background-image: url(../img/bgHms.jpg);
-    }
-    34% {
-      background-image: url(../img/assesoria.jpg);
-    }
-    66% {
-      background-image: url(../img/assesoria.jpg);
-=======
       background-image: url(../img/bgHms.png);
     }
     33% {
@@ -37,19 +20,6 @@
     }
     66% {
       background-image: url(../img/bgHms2.jpg);
->>>>>>> fb5bbe8064691d90eea95fe79bae9fc19f90b377
-=======
-      background-image: url(../img/bgHms.png);
-    }
-    33% {
-      background-image: url(../img/bgHms.png);
-    }
-    34% {
-      background-image: url(../img/bgHms2.jpg);
-    }
-    66% {
-      background-image: url(../img/bgHms2.jpg);
->>>>>>> f15005370e997e1cbb8a6e5182c297228b2c1f70
     }
     67% {
       background-image: url(../img/prefixado.jpg);
